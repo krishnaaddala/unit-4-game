@@ -18,7 +18,6 @@ function resetGame(){
      crystalNumber3 = Math.floor(Math.random() * 12) + 1;
      crystalNumber4 = Math.floor(Math.random() * 12) + 1;
     allCrystalValue =0;
-
 }
 //This will place the computer generated random number on the page using the ID
 $("#computerRandom").text(computerChoice);

@@ -1,0 +1,48 @@
+h1{
+    background-color: darkorange;
+    width: 20%;
+    color: white;
+}
+body{
+    z-index: 0;
+}
+#instructions{
+    background-color: beige;
+    width: 26%;
+    height: 40%;
+    color: green;
+    font-weight: bold;
+}
+#computerRandom{
+    background-color: green;
+    font-weight: bold;
+    font-size: 30px;
+    width: 10%;
+    height: 120px;
+    margin-top:10px;
+}
+.gameLogic{
+    background-color: lightblue;
+    width: 10%;
+    margin-top: 10px;
+   
+}
+#crystalimages img{
+    background-position: 50% 50%;
+    background-size:cover;
+    overflow: hidden; 
+
+}
+#totalScore{
+    background-color: darkgreen;
+    width: 10%;
+    color: white;
+
+}
+#totalScoreNumber{
+    background-color: darkgreen;
+    width:10%;
+    height: 40px;
+    color: white;
+
+}

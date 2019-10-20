@@ -14,7 +14,8 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body>
+<body background="assets/images/background.png">
+    
     <h1>CrystalsCollector!</h1>
     <div id="instructions">
         <p>You will be given a rondom number at the start of the game</p>
@@ -26,8 +27,8 @@
         <p>Each time when the game starts, the game will change the values of each crystal.</p>
     </div>
     <p id="computerRandom"></p>
+    <div class="gameLogic">
     <p>Game Status</p> 
-
     <p id="gameStatus"></p> <br>
     
     <p id="wins">Wins</p> <br>
@@ -35,6 +36,7 @@
     
     <p id="loses">Loses:</p> <br>
     <p id="losesCount"></p> <br>
+    </div>
     <div id="crystalimages">
         <input type="image" id="blue-image" src= "assets/images/blue.png"/>
         <input type="image" id="green-image" src= "assets/images/green.png"/>
@@ -55,6 +57,5 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
-<!-- <script src="assets/javascript/game.js"></script> -->
-<script src="assets/javascript/test2.js"></script>
+<script src="assets/javascript/game.js"></script>
 </html>
